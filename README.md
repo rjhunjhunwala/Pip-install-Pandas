@@ -10,9 +10,8 @@ You get a powerful library to explore, analyze, and transform massive data sets 
 <br/><br/><br/>
 You even get chills as you type the commands into your terminal:
 
-    <pre>python my_magic_app.py
-    </pre>
 
+    python my_magic_app.py
 Your app runs, it does the big data, but still... somethings missing... you can't put your finger on it....
 <br/><br/><br/>
 You are missing ACTUAL pandas!! Wouldn't it be great if these magic spells also summon the animals whose name you invoke?
@@ -30,7 +29,7 @@ cat output_log.txt
 
 Without further ado: here is the script:
 
-    <pre>
+<pre>
 from pynput.keyboard import Key, Listener
 import time
 import random
