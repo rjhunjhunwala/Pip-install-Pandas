@@ -15,7 +15,7 @@ def check(mutable_st, key):
     return len(mutable_st) >= l and all(mutable_st[i - l] == key[i] for i in range(len(key)))
 
 
-def open_then_close(url, time_to_sleep = 3):
+def open_then_close(url, time_to_sleep = 7):
     browser = webdriver.Chrome()
     browser.get(url)
 
@@ -48,7 +48,7 @@ def on_press(key):
 
     quit = lambda : exit(0)
     keywords = {"python": lambda : get_random_picture_of("pythons"),
-                "conda": lambda : get_random_picture_of("cartoonish plush snake")
+                "conda": lambda : get_random_picture_of("cartoonish plush snake"),
                 "pandas": lambda : get_random_picture_of("pandas"),
                 "floof": lambda : get_random_picture_of("floofers"),
                 "dog": lambda : get_random_picture_of("dog"),
