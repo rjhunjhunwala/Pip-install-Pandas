@@ -10,9 +10,7 @@ You get a powerful library to explore, analyze, and transform massive data sets 
 <br/><br/><br/>
 You even get chills as you type the commands into your terminal:
 
-<pre>
-    <figcaption>Magical application</figcaption>
-    <pre><code contenteditable="false" tabindex="0" spellcheck="false">python my_magic_app.py
+    <pre>python my_magic_app.py
     </pre>
 
 Your app runs, it does the big data, but still... somethings missing... you can't put your finger on it....
